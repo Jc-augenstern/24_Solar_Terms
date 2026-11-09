@@ -1,0 +1,43 @@
+# Local dependencies and generated artifacts
+.venv/
+node_modules/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.tsbuildinfo
+**/dist/
+*.log
+*.tmp
+.env
+.env.*
+!.env.example
+*.sqlite*
+*.db
+*.db-*
+*.pem
+*.key
+/output/
+/tmp/
+# Runtime state and bulk meteorological evidence remain on this machine
+/demo/data/*
+!/demo/data/reports/
+/demo/data/reports/*
+!/demo/data/reports/*.json
+!/demo/data/methodology/
+!/demo/data/report_manifest.json
+!/demo/data/provider_policy.json
+!/demo/data/raw/
+/demo/data/raw/*
+!/demo/data/raw/astronomy/
+/demo/data/raw/astronomy/*
+!/demo/data/raw/astronomy/solar_terms_1961_2026.json
+!/demo/data/raw/beijing/
+/demo/data/raw/beijing/*
+!/demo/data/raw/beijing/era5_1961-01-01_1965-12-31_e5687ca4d911.json
+!/demo/data/raw/beijing/era5_1961-01-01_1965-12-31_e5687ca4d911.meta.json
+# Keep QA source, exclude local runs, screenshots and historical outputs
+/demo/qa/*/
+/demo/qa/*.json
+/demo/qa/*.png
+/demo/qa/*.txt
+/demo/frontend/qa/*/

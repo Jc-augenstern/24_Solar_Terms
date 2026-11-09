@@ -1,0 +1,9 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+# Preserve published report bytes for SHA256 verification
+demo/data/reports/*.json -text
+demo/data/raw/**/*.json -text

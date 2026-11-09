@@ -1,0 +1,567 @@
+{
+  "captured_at": "2026-11-09T01:39:30.873746-04:00",
+  "version": "handoff-v1; commit is the Git commit containing this file",
+  "cities": [
+    {
+      "id": "beijing",
+      "name": "北京",
+      "task_status": "ready",
+      "verified_slices": 14,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "complete",
+        "validation": "complete",
+        "calculation": "complete",
+        "publication": "complete"
+      },
+      "report_valid": true,
+      "next": "已发布；继续使用稳定报告"
+    },
+    {
+      "id": "tianjin",
+      "name": "天津",
+      "task_status": "ready",
+      "verified_slices": 14,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "complete",
+        "validation": "complete",
+        "calculation": "complete",
+        "publication": "complete"
+      },
+      "report_valid": true,
+      "next": "已发布；继续使用稳定报告"
+    },
+    {
+      "id": "shanghai",
+      "name": "上海",
+      "task_status": "ready",
+      "verified_slices": 14,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "complete",
+        "validation": "complete",
+        "calculation": "complete",
+        "publication": "complete"
+      },
+      "report_valid": true,
+      "next": "已发布；继续使用稳定报告"
+    },
+    {
+      "id": "chongqing",
+      "name": "重庆",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 11,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "保留缓存，指定唯一下载负责人后续跑"
+    },
+    {
+      "id": "shijiazhuang",
+      "name": "石家庄",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "taiyuan",
+      "name": "太原",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "shenyang",
+      "name": "沈阳",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "changchun",
+      "name": "长春",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "harbin",
+      "name": "哈尔滨",
+      "task_status": "ready",
+      "verified_slices": 14,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "complete",
+        "validation": "complete",
+        "calculation": "complete",
+        "publication": "complete"
+      },
+      "report_valid": true,
+      "next": "已发布；继续使用稳定报告"
+    },
+    {
+      "id": "nanjing",
+      "name": "南京",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "hangzhou",
+      "name": "杭州",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "hefei",
+      "name": "合肥",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "fuzhou",
+      "name": "福州",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "nanchang",
+      "name": "南昌",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "jinan",
+      "name": "济南",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "zhengzhou",
+      "name": "郑州",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "wuhan",
+      "name": "武汉",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "changsha",
+      "name": "长沙",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "guangzhou",
+      "name": "广州",
+      "task_status": "ready",
+      "verified_slices": 14,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "complete",
+        "validation": "complete",
+        "calculation": "complete",
+        "publication": "complete"
+      },
+      "report_valid": true,
+      "next": "已发布；继续使用稳定报告"
+    },
+    {
+      "id": "haikou",
+      "name": "海口",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "chengdu",
+      "name": "成都",
+      "task_status": "ready",
+      "verified_slices": 14,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "complete",
+        "validation": "complete",
+        "calculation": "complete",
+        "publication": "complete"
+      },
+      "report_valid": true,
+      "next": "已发布；继续使用稳定报告"
+    },
+    {
+      "id": "guiyang",
+      "name": "贵阳",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "kunming",
+      "name": "昆明",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "xian",
+      "name": "西安",
+      "task_status": "ready",
+      "verified_slices": 14,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "complete",
+        "validation": "complete",
+        "calculation": "complete",
+        "publication": "complete"
+      },
+      "report_valid": true,
+      "next": "已发布；继续使用稳定报告"
+    },
+    {
+      "id": "lanzhou",
+      "name": "兰州",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "xining",
+      "name": "西宁",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "hohhot",
+      "name": "呼和浩特",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "nanning",
+      "name": "南宁",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "lhasa",
+      "name": "拉萨",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "yinchuan",
+      "name": "银川",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "urumqi",
+      "name": "乌鲁木齐",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "taipei",
+      "name": "台北",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "hongkong",
+      "name": "香港",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    },
+    {
+      "id": "macau",
+      "name": "澳门",
+      "task_status": "acquisition_blocked",
+      "verified_slices": 0,
+      "total_slices": 14,
+      "stages": {
+        "acquisition": "blocked",
+        "validation": "pending",
+        "calculation": "pending",
+        "publication": "pending"
+      },
+      "report_valid": false,
+      "next": "等待下载负责人按额度串行获取"
+    }
+  ],
+  "reports": [
+    {
+      "path": "demo/data/reports/beijing.json",
+      "bytes": 1061343,
+      "sha256": "5a9283248b53c0cd9d6ad3ffc67662be58170c44c1981ec63850edeb170044e0",
+      "report_id": "beijing-era5-v0.1",
+      "license_review": "CC BY 4.0; attribution retained; derived ERA5 statistics; no personal records"
+    },
+    {
+      "path": "demo/data/reports/tianjin.json",
+      "bytes": 1061552,
+      "sha256": "8acd5a55ec5f26623a7dd7d2cfc9d3d2da4eb3165d8cc934a4572e048925c7e7",
+      "report_id": "tianjin-era5-v0.1",
+      "license_review": "CC BY 4.0; attribution retained; derived ERA5 statistics; no personal records"
+    },
+    {
+      "path": "demo/data/reports/shanghai.json",
+      "bytes": 1062734,
+      "sha256": "adf9f4a87f4be7e6bd9739120f7e2d2ebfa3c18cd5bcaafe95ea7cfaac8c289c",
+      "report_id": "shanghai-era5-v0.1",
+      "license_review": "CC BY 4.0; attribution retained; derived ERA5 statistics; no personal records"
+    },
+    {
+      "path": "demo/data/reports/harbin.json",
+      "bytes": 1063478,
+      "sha256": "0684b9fb2aa7128dc972b5eeff58c1a4441b0a198408562cb5918460f17d7c8e",
+      "report_id": "harbin-era5-v0.1",
+      "license_review": "CC BY 4.0; attribution retained; derived ERA5 statistics; no personal records"
+    },
+    {
+      "path": "demo/data/reports/guangzhou.json",
+      "bytes": 1063451,
+      "sha256": "55ca06ab8fc78f0f0dcc499c60f07c6a33b814deae609abec972b58848f13839",
+      "report_id": "guangzhou-era5-v0.1",
+      "license_review": "CC BY 4.0; attribution retained; derived ERA5 statistics; no personal records"
+    },
+    {
+      "path": "demo/data/reports/chengdu.json",
+      "bytes": 1062011,
+      "sha256": "19530db34f043a6c66cec58728048c15aa501a4230f2c28c0d052c2aa09ce147",
+      "report_id": "chengdu-era5-v0.1",
+      "license_review": "CC BY 4.0; attribution retained; derived ERA5 statistics; no personal records"
+    },
+    {
+      "path": "demo/data/reports/xian.json",
+      "bytes": 1061806,
+      "sha256": "481d91e9cdee86c6f63cb5e6930276c90f54261a58d4c22edc7c70abae2c0bc3",
+      "report_id": "xian-era5-v0.1",
+      "license_review": "CC BY 4.0; attribution retained; derived ERA5 statistics; no personal records"
+    }
+  ]
+}

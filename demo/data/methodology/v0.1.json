@@ -1,0 +1,78 @@
+{
+  "version": "v0.1",
+  "title": "旧候相似指数 v0.1",
+  "object": "城市代表点在某节气时段的历史气候画像",
+  "notice": "本作品以历史气候差异生成艺术评级；‘已故’不代表节气在天文学上消失。",
+  "formula": "d = |近期均值 − 历史均值| / max(历史样本标准差, 最小尺度)；D = 0.60 d温度 + 0.25 d降水 + 0.15 d昼夜温差；S = 100 / (1 + D)",
+  "baseline": {
+    "start": 1961,
+    "end": 1990
+  },
+  "recent": {
+    "start": 1996,
+    "end": 2025
+  },
+  "metrics": [
+    {
+      "key": "temperature",
+      "name": "平均气温",
+      "unit": "℃",
+      "weight": 0.6,
+      "minimum_scale": 0.5
+    },
+    {
+      "key": "precipitation",
+      "name": "日均降水量",
+      "unit": "mm/日",
+      "weight": 0.25,
+      "minimum_scale": 0.5
+    },
+    {
+      "key": "diurnal_range",
+      "name": "平均昼夜温差",
+      "unit": "℃",
+      "weight": 0.15,
+      "minimum_scale": 0.5
+    }
+  ],
+  "thresholds": [
+    {
+      "status": "alive",
+      "rule": "S ≥ 70"
+    },
+    {
+      "status": "critical",
+      "rule": "40 ≤ S < 70"
+    },
+    {
+      "status": "departed",
+      "rule": "S < 40"
+    }
+  ],
+  "missing_data": "任一核心变量有效日数不足窗口日数90%，整年该节气窗口无效。昼夜温差还要求同日最高温和最低温成对有效率至少90%。任一比较期有效年度少于27年，不生成确定评级。缺失不补零。",
+  "annual_window": "Skyfield solar_terms + JPL DE421，逐年计算交节时间并转换为北京时间固定UTC+08:00。统计交节日（含）至下一交节日（不含）；按起始交节公历年归档。日粒度近似忽略交节当天不足一天的时刻差异。",
+  "timezone": "北京时间 UTC+08:00；请求时区 Asia/Shanghai，校验返回 utc_offset_seconds=28800。固定+08解释避免历史夏令时改变气候日窗口。",
+  "statistics": "先计算每年度窗口的三个日平均指标，再对有效年度等权平均。标准差采用历史有效年度指标的样本标准差，分母 n−1。",
+  "rounding": "评级使用未舍入值；显示两位小数，若舍入跨越40或70分界，则显示<40或<70。",
+  "sensitivity": "一次仅改变一个参数：各权重及最小尺度±10%（权重重新归一），两条边界分别±5分；发生状态变化标记参数敏感。不是统计置信度。",
+  "limitations": [
+    "再分析不是气象站实测，代表点不是全市平均。",
+    "1996—2025是本作品近期比较窗口，不是WMO标准常年期。",
+    "指数是艺术规则，不代表消失比例、死亡概率或因果归因。",
+    "无已故评级时生成家乡守候卡；不编造死亡年份。"
+  ],
+  "sources": [
+    {
+      "name": "Open-Meteo Historical Weather API / ERA5",
+      "url": "https://open-meteo.com/en/docs/historical-weather-api"
+    },
+    {
+      "name": "Skyfield Solar terms",
+      "url": "https://rhodesmill.org/skyfield/almanac.html#solar-terms"
+    },
+    {
+      "name": "香港天文台：二十四节气",
+      "url": "https://www.hko.gov.hk/tc/gts/time/24solarterms.htm"
+    }
+  ]
+}

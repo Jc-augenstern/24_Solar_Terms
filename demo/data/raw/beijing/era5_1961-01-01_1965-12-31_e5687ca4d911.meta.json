@@ -1,0 +1,24 @@
+{
+  "retrieved_at": "2026-10-29T10:44:14.911538+00:00",
+  "url": "https://archive-api.open-meteo.com/v1/archive?latitude=39.9042&longitude=116.4074&daily=temperature_2m_mean%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_sum&models=era5&timezone=Asia%2FShanghai&temperature_unit=celsius&precipitation_unit=mm&cell_selection=nearest&elevation=nan&start_date=1961-01-01&end_date=1965-12-31",
+  "parameters": {
+    "latitude": 39.9042,
+    "longitude": 116.4074,
+    "daily": "temperature_2m_mean,temperature_2m_max,temperature_2m_min,precipitation_sum",
+    "models": "era5",
+    "timezone": "Asia/Shanghai",
+    "temperature_unit": "celsius",
+    "precipitation_unit": "mm",
+    "cell_selection": "nearest",
+    "elevation": "nan",
+    "start_date": "1961-01-01",
+    "end_date": "1965-12-31"
+  },
+  "sha256": "f99116bbcf9cdb25276bebfa30d2d0db58e00cd24d9417b81ce5e6ec048df6dd",
+  "response_headers": {
+    "content_type": "application/json; charset=utf-8",
+    "status": 200
+  },
+  "model": "ERA5",
+  "fixed_grid_policy": "nearest; elevation=nan disables elevation downscaling"
+}

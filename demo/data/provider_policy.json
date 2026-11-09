@@ -1,0 +1,38 @@
+{
+  "verified_at": "2026-11-09",
+  "provider": "Open-Meteo free non-commercial API",
+  "terms_url": "https://open-meteo.com/en/terms",
+  "pricing_url": "https://open-meteo.com/en/pricing",
+  "documentation_url": "https://open-meteo.com/en/docs/historical-weather-api",
+  "official_limits": {
+    "minute": 600,
+    "hour": 5000,
+    "day": 10000,
+    "month": 300000
+  },
+  "default_conservative_limits": {
+    "minute": 450,
+    "hour": 4500,
+    "day": 9000,
+    "month": 270000
+  },
+  "estimated_call_formula": "max(1, days/14) * max(1, variables/10) * models * locations; each attempted request reserved before sending",
+  "notes": "折算调用而非HTTP次数；按滚动时间窗口保守记账，已有本地天气请求及地理编码请求纳入。共享IP实际余量未知，服务429优先并停止整批。不会换IP/账号/代理绕过配额。",
+  "use": "本地非商业作品的准备与研究，不购买资源。",
+  "concurrency": 1,
+  "attribution": "Weather data by Open-Meteo.com (CC BY 4.0), based on Copernicus Climate Change Service / ECMWF ERA5 reanalysis.",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "modification_notice": "原始ERA5逐日再分析经北京时间节气窗口聚合、两期统计及v0.1艺术指数计算。",
+  "verification_history": [
+    {
+      "verified_at": "2026-10-29",
+      "official_limits": {
+        "minute": 600,
+        "hour": 5000,
+        "day": 10000,
+        "month": 300000
+      }
+    }
+  ],
+  "latest_verification_evidence": "qa/resume-20261109/provider-review.json"
+}

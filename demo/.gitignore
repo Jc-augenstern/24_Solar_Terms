@@ -1,0 +1,12 @@
+.venv/
+frontend/node_modules/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/*.sqlite3*
+data/runtime*.json
+data/server*.log
+data/runtime/
+qa/.tmp/
+qa/browser-state.json
+

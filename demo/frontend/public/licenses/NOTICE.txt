@@ -1,0 +1,12 @@
+本地前端资源与许可
+
+React / React DOM / Scheduler: MIT
+Apache ECharts: Apache-2.0（含第三方声明，见 echarts-LICENSE.txt）
+zrender: BSD-3-Clause
+ECharts 使用的 d3 算法许可见 echarts-d3-LICENSE.txt
+tslib: 0BSD
+
+完整许可文本位于此目录。准确依赖版本由项目 package-lock.json 锁定。
+字体使用本机已有 SimSun / Microsoft YaHei（其他系统按本地替代字体回退）。
+本项目未复制或分发 Windows 字体文件，无远程字体、图片或 CDN 依赖。
+轨道示意和所有界面图形由项目 CSS / SVG / Canvas 绘制，非外部素材。

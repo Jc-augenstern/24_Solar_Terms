@@ -1,0 +1,2049 @@
+{
+  "schema_version": "1.0",
+  "coordinate_reference": "WGS84",
+  "coordinate_documentation": [
+    "https://www.geonames.org/about.html",
+    "https://open-meteo.com/en/docs/geocoding-api"
+  ],
+  "cities": [
+    {
+      "id": "beijing",
+      "city_id": "beijing",
+      "name": "北京",
+      "region": "北京市",
+      "category": "直辖市",
+      "aliases": [
+        "Beijing",
+        "beijing",
+        "北京",
+        "北京市"
+      ],
+      "representative_point": {
+        "latitude": 39.9042,
+        "longitude": 116.4074,
+        "description": "保留已认可北京v0.1请求点；与GeoNames北京城市中心记录相距约0.94km，核对为同一中心城区，避免变更基线。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1816670/",
+          "geonames_id": 1816670,
+          "record": {
+            "id": 1816670,
+            "name": "Beijing",
+            "latitude": 39.9075,
+            "longitude": 116.39723,
+            "elevation": 49.0,
+            "feature_code": "PPLC",
+            "country_code": "CN",
+            "admin1_id": 2038349,
+            "admin2_id": 11876380,
+            "timezone": "Asia/Shanghai",
+            "population": 18960744,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Beijing Municipality",
+            "admin2": "Beijing"
+          },
+          "response_file": "raw/geocoding/beijing.json",
+          "checked_at": "2026-10-29T12:37:12.617199+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "beijing-era5-v0.1"
+    },
+    {
+      "id": "tianjin",
+      "city_id": "tianjin",
+      "name": "天津",
+      "region": "天津市",
+      "category": "直辖市",
+      "aliases": [
+        "Tianjin",
+        "tianjin",
+        "天津",
+        "天津市"
+      ],
+      "representative_point": {
+        "latitude": 39.14222,
+        "longitude": 117.17667,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1792947/",
+          "geonames_id": 1792947,
+          "record": {
+            "id": 1792947,
+            "name": "Tianjin",
+            "latitude": 39.14222,
+            "longitude": 117.17667,
+            "elevation": 11.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1792943,
+            "admin2_id": 12324202,
+            "timezone": "Asia/Shanghai",
+            "population": 13866009,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Tianjin Municipality",
+            "admin2": "Tianjin Municipality"
+          },
+          "response_file": "raw/geocoding/tianjin.json",
+          "checked_at": "2026-10-29T12:37:15.001060+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "tianjin-era5-v0.1"
+    },
+    {
+      "id": "shanghai",
+      "city_id": "shanghai",
+      "name": "上海",
+      "region": "上海市",
+      "category": "直辖市",
+      "aliases": [
+        "Shanghai",
+        "shanghai",
+        "上海",
+        "上海市"
+      ],
+      "representative_point": {
+        "latitude": 31.22222,
+        "longitude": 121.45806,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1796236/",
+          "geonames_id": 1796236,
+          "record": {
+            "id": 1796236,
+            "name": "Shanghai",
+            "latitude": 31.22222,
+            "longitude": 121.45806,
+            "elevation": 12.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1796231,
+            "admin2_id": 12324204,
+            "timezone": "Asia/Shanghai",
+            "population": 24874500,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Shanghai Municipality",
+            "admin2": "Shanghai Municipality"
+          },
+          "response_file": "raw/geocoding/shanghai.json",
+          "checked_at": "2026-10-29T12:37:17.148222+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "shanghai-era5-v0.1"
+    },
+    {
+      "id": "chongqing",
+      "city_id": "chongqing",
+      "name": "重庆",
+      "region": "重庆市",
+      "category": "直辖市",
+      "aliases": [
+        "Chongqing",
+        "chongqing",
+        "重庆",
+        "重庆市"
+      ],
+      "representative_point": {
+        "latitude": 29.56026,
+        "longitude": 106.55771,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1814906/",
+          "geonames_id": 1814906,
+          "record": {
+            "id": 1814906,
+            "name": "Chongqing",
+            "latitude": 29.56026,
+            "longitude": 106.55771,
+            "elevation": 289.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1814905,
+            "admin2_id": 8739734,
+            "timezone": "Asia/Shanghai",
+            "population": 22000000,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Chongqing Municipality",
+            "admin2": "Chongqing"
+          },
+          "response_file": "raw/geocoding/chongqing.json",
+          "checked_at": "2026-10-29T12:37:18.862673+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "chongqing-era5-v0.1"
+    },
+    {
+      "id": "shijiazhuang",
+      "city_id": "shijiazhuang",
+      "name": "石家庄",
+      "region": "河北省",
+      "category": "大陆省会",
+      "aliases": [
+        "Shijiazhuang",
+        "shijiazhuang",
+        "河北",
+        "石家庄市"
+      ],
+      "representative_point": {
+        "latitude": 38.04139,
+        "longitude": 114.47861,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1795270/",
+          "geonames_id": 1795270,
+          "record": {
+            "id": 1795270,
+            "name": "Shijiazhuang",
+            "latitude": 38.04139,
+            "longitude": 114.47861,
+            "elevation": 77.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1808773,
+            "admin2_id": 1795266,
+            "timezone": "Asia/Shanghai",
+            "population": 5758403,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Hebei",
+            "admin2": "Shijiazhuang Shi"
+          },
+          "response_file": "raw/geocoding/shijiazhuang.json",
+          "checked_at": "2026-10-29T12:37:20.976358+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "shijiazhuang-era5-v0.1"
+    },
+    {
+      "id": "taiyuan",
+      "city_id": "taiyuan",
+      "name": "太原",
+      "region": "山西省",
+      "category": "大陆省会",
+      "aliases": [
+        "Taiyuan",
+        "taiyuan",
+        "太原市",
+        "山西"
+      ],
+      "representative_point": {
+        "latitude": 37.86944,
+        "longitude": 112.56028,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1793511/",
+          "geonames_id": 1793511,
+          "record": {
+            "id": 1793511,
+            "name": "Taiyuan",
+            "latitude": 37.86944,
+            "longitude": 112.56028,
+            "elevation": 795.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1795912,
+            "admin2_id": 1793510,
+            "timezone": "Asia/Shanghai",
+            "population": 5305061,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Shanxi",
+            "admin2": "Taiyuan Shi"
+          },
+          "response_file": "raw/geocoding/taiyuan.json",
+          "checked_at": "2026-10-29T12:37:22.782151+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "taiyuan-era5-v0.1"
+    },
+    {
+      "id": "shenyang",
+      "city_id": "shenyang",
+      "name": "沈阳",
+      "region": "辽宁省",
+      "category": "大陆省会",
+      "aliases": [
+        "Shenyang",
+        "shenyang",
+        "沈阳市",
+        "辽宁"
+      ],
+      "representative_point": {
+        "latitude": 41.79222,
+        "longitude": 123.43278,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/2034937/",
+          "geonames_id": 2034937,
+          "record": {
+            "id": 2034937,
+            "name": "Shenyang",
+            "latitude": 41.79222,
+            "longitude": 123.43278,
+            "elevation": 53.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 2036115,
+            "admin2_id": 2034935,
+            "timezone": "Asia/Shanghai",
+            "population": 9070093,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Liaoning",
+            "admin2": "Shenyang Shi"
+          },
+          "response_file": "raw/geocoding/shenyang.json",
+          "checked_at": "2026-10-29T12:37:24.910378+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "shenyang-era5-v0.1"
+    },
+    {
+      "id": "changchun",
+      "city_id": "changchun",
+      "name": "长春",
+      "region": "吉林省",
+      "category": "大陆省会",
+      "aliases": [
+        "Changchun",
+        "changchun",
+        "吉林",
+        "长春市"
+      ],
+      "representative_point": {
+        "latitude": 43.88,
+        "longitude": 125.32278,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/2038180/",
+          "geonames_id": 2038180,
+          "record": {
+            "id": 2038180,
+            "name": "Changchun",
+            "latitude": 43.88,
+            "longitude": 125.32278,
+            "elevation": 206.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 2036500,
+            "admin2_id": 2038176,
+            "timezone": "Asia/Shanghai",
+            "population": 5691024,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Jilin",
+            "admin2": "Changchun Shi"
+          },
+          "response_file": "raw/geocoding/changchun.json",
+          "checked_at": "2026-10-29T12:37:26.887092+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "changchun-era5-v0.1"
+    },
+    {
+      "id": "harbin",
+      "city_id": "harbin",
+      "name": "哈尔滨",
+      "region": "黑龙江省",
+      "category": "大陆省会",
+      "aliases": [
+        "Harbin",
+        "harbin",
+        "哈尔滨市",
+        "黑龙江"
+      ],
+      "representative_point": {
+        "latitude": 45.75,
+        "longitude": 126.65,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/2037013/",
+          "geonames_id": 2037013,
+          "record": {
+            "id": 2037013,
+            "name": "Harbin",
+            "latitude": 45.75,
+            "longitude": 126.65,
+            "elevation": 140.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 2036965,
+            "admin2_id": 2037012,
+            "timezone": "Asia/Shanghai",
+            "population": 10009854,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Heilongjiang",
+            "admin2": "Harbin Shi"
+          },
+          "response_file": "raw/geocoding/harbin.json",
+          "checked_at": "2026-10-29T12:37:29.063494+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "harbin-era5-v0.1"
+    },
+    {
+      "id": "nanjing",
+      "city_id": "nanjing",
+      "name": "南京",
+      "region": "江苏省",
+      "category": "大陆省会",
+      "aliases": [
+        "Nanjing",
+        "nanjing",
+        "南京市",
+        "江苏"
+      ],
+      "representative_point": {
+        "latitude": 32.06167,
+        "longitude": 118.77778,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1799962/",
+          "geonames_id": 1799962,
+          "record": {
+            "id": 1799962,
+            "name": "Nanjing",
+            "latitude": 32.06167,
+            "longitude": 118.77778,
+            "elevation": 22.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1806260,
+            "admin2_id": 1799960,
+            "timezone": "Asia/Shanghai",
+            "population": 9314685,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Jiangsu",
+            "admin2": "Nanjing"
+          },
+          "response_file": "raw/geocoding/nanjing.json",
+          "checked_at": "2026-10-29T12:37:31.253082+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "nanjing-era5-v0.1"
+    },
+    {
+      "id": "hangzhou",
+      "city_id": "hangzhou",
+      "name": "杭州",
+      "region": "浙江省",
+      "category": "大陆省会",
+      "aliases": [
+        "Hangzhou",
+        "hangzhou",
+        "杭州市",
+        "浙江"
+      ],
+      "representative_point": {
+        "latitude": 30.29365,
+        "longitude": 120.16142,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1808926/",
+          "geonames_id": 1808926,
+          "record": {
+            "id": 1808926,
+            "name": "Hangzhou",
+            "latitude": 30.29365,
+            "longitude": 120.16142,
+            "elevation": 12.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1784764,
+            "admin2_id": 1808925,
+            "timezone": "Asia/Shanghai",
+            "population": 11936010,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Zhejiang",
+            "admin2": "Hangzhou Shi"
+          },
+          "response_file": "raw/geocoding/hangzhou.json",
+          "checked_at": "2026-10-29T12:37:32.941973+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "hangzhou-era5-v0.1"
+    },
+    {
+      "id": "hefei",
+      "city_id": "hefei",
+      "name": "合肥",
+      "region": "安徽省",
+      "category": "大陆省会",
+      "aliases": [
+        "Hefei",
+        "hefei",
+        "合肥市",
+        "安徽"
+      ],
+      "representative_point": {
+        "latitude": 31.86389,
+        "longitude": 117.28083,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1808722/",
+          "geonames_id": 1808722,
+          "record": {
+            "id": 1808722,
+            "name": "Hefei",
+            "latitude": 31.86389,
+            "longitude": 117.28083,
+            "elevation": 24.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1818058,
+            "admin2_id": 1808721,
+            "timezone": "Asia/Shanghai",
+            "population": 9465881,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Anhui",
+            "admin2": "Hefei Shi"
+          },
+          "response_file": "raw/geocoding/hefei.json",
+          "checked_at": "2026-10-29T12:37:34.728729+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "hefei-era5-v0.1"
+    },
+    {
+      "id": "fuzhou",
+      "city_id": "fuzhou",
+      "name": "福州",
+      "region": "福建省",
+      "category": "大陆省会",
+      "aliases": [
+        "Fuzhou",
+        "fuzhou",
+        "福州市",
+        "福建"
+      ],
+      "representative_point": {
+        "latitude": 26.06139,
+        "longitude": 119.30611,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1810821/",
+          "geonames_id": 1810821,
+          "record": {
+            "id": 1810821,
+            "name": "Fuzhou",
+            "latitude": 26.06139,
+            "longitude": 119.30611,
+            "elevation": 14.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1811017,
+            "admin2_id": 1810815,
+            "timezone": "Asia/Shanghai",
+            "population": 4094491,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Fujian",
+            "admin2": "Fuzhou Shi"
+          },
+          "response_file": "raw/geocoding/fuzhou.json",
+          "checked_at": "2026-10-29T12:37:37.479362+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "fuzhou-era5-v0.1"
+    },
+    {
+      "id": "nanchang",
+      "city_id": "nanchang",
+      "name": "南昌",
+      "region": "江西省",
+      "category": "大陆省会",
+      "aliases": [
+        "Nanchang",
+        "nanchang",
+        "南昌市",
+        "江西"
+      ],
+      "representative_point": {
+        "latitude": 28.68396,
+        "longitude": 115.85306,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1800163/",
+          "geonames_id": 1800163,
+          "record": {
+            "id": 1800163,
+            "name": "Nanchang",
+            "latitude": 28.68396,
+            "longitude": 115.85306,
+            "elevation": 20.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1806222,
+            "admin2_id": 1800160,
+            "timezone": "Asia/Shanghai",
+            "population": 2357839,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Jiangxi",
+            "admin2": "Nanchang Shi"
+          },
+          "response_file": "raw/geocoding/nanchang.json",
+          "checked_at": "2026-10-29T12:37:39.370879+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "nanchang-era5-v0.1"
+    },
+    {
+      "id": "jinan",
+      "city_id": "jinan",
+      "name": "济南",
+      "region": "山东省",
+      "category": "大陆省会",
+      "aliases": [
+        "Jinan",
+        "jinan",
+        "山东",
+        "济南市"
+      ],
+      "representative_point": {
+        "latitude": 36.66833,
+        "longitude": 116.99722,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1805753/",
+          "geonames_id": 1805753,
+          "record": {
+            "id": 1805753,
+            "name": "Jinan",
+            "latitude": 36.66833,
+            "longitude": 116.99722,
+            "elevation": 32.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1796328,
+            "admin2_id": 1805751,
+            "timezone": "Asia/Shanghai",
+            "population": 8352574,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Shandong",
+            "admin2": "Jinan Shi"
+          },
+          "response_file": "raw/geocoding/jinan.json",
+          "checked_at": "2026-10-29T12:37:42.621787+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "jinan-era5-v0.1"
+    },
+    {
+      "id": "zhengzhou",
+      "city_id": "zhengzhou",
+      "name": "郑州",
+      "region": "河南省",
+      "category": "大陆省会",
+      "aliases": [
+        "Zhengzhou",
+        "zhengzhou",
+        "河南",
+        "郑州市"
+      ],
+      "representative_point": {
+        "latitude": 34.75778,
+        "longitude": 113.64861,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1784658/",
+          "geonames_id": 1784658,
+          "record": {
+            "id": 1784658,
+            "name": "Zhengzhou",
+            "latitude": 34.75778,
+            "longitude": 113.64861,
+            "elevation": 104.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1808520,
+            "admin2_id": 1784657,
+            "timezone": "Asia/Shanghai",
+            "population": 6650532,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Henan",
+            "admin2": "Zhengzhou"
+          },
+          "response_file": "raw/geocoding/zhengzhou.json",
+          "checked_at": "2026-10-29T12:37:45.409790+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "zhengzhou-era5-v0.1"
+    },
+    {
+      "id": "wuhan",
+      "city_id": "wuhan",
+      "name": "武汉",
+      "region": "湖北省",
+      "category": "大陆省会",
+      "aliases": [
+        "Wuhan",
+        "wuhan",
+        "武汉市",
+        "湖北"
+      ],
+      "representative_point": {
+        "latitude": 30.58333,
+        "longitude": 114.26667,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1791247/",
+          "geonames_id": 1791247,
+          "record": {
+            "id": 1791247,
+            "name": "Wuhan",
+            "latitude": 30.58333,
+            "longitude": 114.26667,
+            "elevation": 20.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1806949,
+            "admin2_id": 1791243,
+            "timezone": "Asia/Shanghai",
+            "population": 13739000,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Hubei",
+            "admin2": "Wuhan Shi"
+          },
+          "response_file": "raw/geocoding/wuhan.json",
+          "checked_at": "2026-10-29T12:37:47.102864+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "wuhan-era5-v0.1"
+    },
+    {
+      "id": "changsha",
+      "city_id": "changsha",
+      "name": "长沙",
+      "region": "湖南省",
+      "category": "大陆省会",
+      "aliases": [
+        "Changsha",
+        "changsha",
+        "湖南",
+        "长沙市"
+      ],
+      "representative_point": {
+        "latitude": 28.19874,
+        "longitude": 112.97087,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1815577/",
+          "geonames_id": 1815577,
+          "record": {
+            "id": 1815577,
+            "name": "Changsha",
+            "latitude": 28.19874,
+            "longitude": 112.97087,
+            "elevation": 67.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1806691,
+            "admin2_id": 1815551,
+            "timezone": "Asia/Shanghai",
+            "population": 3093980,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Hunan",
+            "admin2": "Changsha Shi"
+          },
+          "response_file": "raw/geocoding/changsha.json",
+          "checked_at": "2026-10-29T12:37:50.379753+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "changsha-era5-v0.1"
+    },
+    {
+      "id": "guangzhou",
+      "city_id": "guangzhou",
+      "name": "广州",
+      "region": "广东省",
+      "category": "大陆省会",
+      "aliases": [
+        "Guangzhou",
+        "guangzhou",
+        "广东",
+        "广州市"
+      ],
+      "representative_point": {
+        "latitude": 23.11667,
+        "longitude": 113.25,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1809858/",
+          "geonames_id": 1809858,
+          "record": {
+            "id": 1809858,
+            "name": "Guangzhou",
+            "latitude": 23.11667,
+            "longitude": 113.25,
+            "elevation": 15.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1809935,
+            "admin2_id": 1809857,
+            "timezone": "Asia/Shanghai",
+            "population": 18676605,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Guangdong",
+            "admin2": "Guangzhou Shi"
+          },
+          "response_file": "raw/geocoding/guangzhou.json",
+          "checked_at": "2026-10-29T12:37:54.280538+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "guangzhou-era5-v0.1"
+    },
+    {
+      "id": "haikou",
+      "city_id": "haikou",
+      "name": "海口",
+      "region": "海南省",
+      "category": "大陆省会",
+      "aliases": [
+        "Haikou",
+        "haikou",
+        "海南",
+        "海口市"
+      ],
+      "representative_point": {
+        "latitude": 20.03421,
+        "longitude": 110.34651,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1809078/",
+          "geonames_id": 1809078,
+          "record": {
+            "id": 1809078,
+            "name": "Haikou",
+            "latitude": 20.03421,
+            "longitude": 110.34651,
+            "elevation": 9.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1809054,
+            "admin2_id": 1809072,
+            "timezone": "Asia/Shanghai",
+            "population": 3001600,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Hainan",
+            "admin2": "Haikou Shi"
+          },
+          "response_file": "raw/geocoding/haikou.json",
+          "checked_at": "2026-10-29T12:37:56.514419+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "haikou-era5-v0.1"
+    },
+    {
+      "id": "chengdu",
+      "city_id": "chengdu",
+      "name": "成都",
+      "region": "四川省",
+      "category": "大陆省会",
+      "aliases": [
+        "Chengdu",
+        "chengdu",
+        "四川",
+        "成都市"
+      ],
+      "representative_point": {
+        "latitude": 30.66667,
+        "longitude": 104.06667,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1815286/",
+          "geonames_id": 1815286,
+          "record": {
+            "id": 1815286,
+            "name": "Chengdu",
+            "latitude": 30.66667,
+            "longitude": 104.06667,
+            "elevation": 499.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1794299,
+            "admin2_id": 1815285,
+            "timezone": "Asia/Shanghai",
+            "population": 20937757,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Sichuan",
+            "admin2": "Chengdu Shi"
+          },
+          "response_file": "raw/geocoding/chengdu.json",
+          "checked_at": "2026-10-29T12:37:58.396554+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "chengdu-era5-v0.1"
+    },
+    {
+      "id": "guiyang",
+      "city_id": "guiyang",
+      "name": "贵阳",
+      "region": "贵州省",
+      "category": "大陆省会",
+      "aliases": [
+        "Guiyang",
+        "guiyang",
+        "贵州",
+        "贵阳市"
+      ],
+      "representative_point": {
+        "latitude": 26.58333,
+        "longitude": 106.71667,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1809461/",
+          "geonames_id": 1809461,
+          "record": {
+            "id": 1809461,
+            "name": "Guiyang",
+            "latitude": 26.58333,
+            "longitude": 106.71667,
+            "elevation": 1087.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1809445,
+            "admin2_id": 1809458,
+            "timezone": "Asia/Shanghai",
+            "population": 4506134,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Guizhou",
+            "admin2": "Guiyang Shi"
+          },
+          "response_file": "raw/geocoding/guiyang.json",
+          "checked_at": "2026-10-29T12:38:00.626920+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "guiyang-era5-v0.1"
+    },
+    {
+      "id": "kunming",
+      "city_id": "kunming",
+      "name": "昆明",
+      "region": "云南省",
+      "category": "大陆省会",
+      "aliases": [
+        "Kunming",
+        "kunming",
+        "云南",
+        "昆明市"
+      ],
+      "representative_point": {
+        "latitude": 25.03889,
+        "longitude": 102.71833,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1804651/",
+          "geonames_id": 1804651,
+          "record": {
+            "id": 1804651,
+            "name": "Kunming",
+            "latitude": 25.03889,
+            "longitude": 102.71833,
+            "elevation": 1895.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1785694,
+            "admin2_id": 1804649,
+            "timezone": "Asia/Shanghai",
+            "population": 5950578,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Yunnan",
+            "admin2": "Kunming Shi"
+          },
+          "response_file": "raw/geocoding/kunming.json",
+          "checked_at": "2026-10-29T12:38:02.326596+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "kunming-era5-v0.1"
+    },
+    {
+      "id": "xian",
+      "city_id": "xian",
+      "name": "西安",
+      "region": "陕西省",
+      "category": "大陆省会",
+      "aliases": [
+        "Xi'an",
+        "Xi’an",
+        "xian",
+        "西安市",
+        "陕西"
+      ],
+      "representative_point": {
+        "latitude": 34.25833,
+        "longitude": 108.92861,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1790630/",
+          "geonames_id": 1790630,
+          "record": {
+            "id": 1790630,
+            "name": "Xi'an",
+            "latitude": 34.25833,
+            "longitude": 108.92861,
+            "elevation": 416.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1796480,
+            "admin2_id": 1790384,
+            "timezone": "Asia/Shanghai",
+            "population": 12952907,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Shaanxi",
+            "admin2": "Xi’an Shi"
+          },
+          "response_file": "raw/geocoding/xian.json",
+          "checked_at": "2026-10-29T12:38:05.324801+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "xian-era5-v0.1"
+    },
+    {
+      "id": "lanzhou",
+      "city_id": "lanzhou",
+      "name": "兰州",
+      "region": "甘肃省",
+      "category": "大陆省会",
+      "aliases": [
+        "Lanzhou",
+        "lanzhou",
+        "兰州市",
+        "甘肃"
+      ],
+      "representative_point": {
+        "latitude": 36.05701,
+        "longitude": 103.83987,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1804430/",
+          "geonames_id": 1804430,
+          "record": {
+            "id": 1804430,
+            "name": "Lanzhou",
+            "latitude": 36.05701,
+            "longitude": 103.83987,
+            "elevation": 1521.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1810676,
+            "admin2_id": 1804429,
+            "timezone": "Asia/Shanghai",
+            "population": 4359446,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Gansu",
+            "admin2": "Lanzhou Shi"
+          },
+          "response_file": "raw/geocoding/lanzhou.json",
+          "checked_at": "2026-10-29T12:38:07.010426+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "lanzhou-era5-v0.1"
+    },
+    {
+      "id": "xining",
+      "city_id": "xining",
+      "name": "西宁",
+      "region": "青海省",
+      "category": "大陆省会",
+      "aliases": [
+        "Xining",
+        "xining",
+        "西宁市",
+        "青海"
+      ],
+      "representative_point": {
+        "latitude": 36.62554,
+        "longitude": 101.75739,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1788852/",
+          "geonames_id": 1788852,
+          "record": {
+            "id": 1788852,
+            "name": "Xining",
+            "latitude": 36.62554,
+            "longitude": 101.75739,
+            "elevation": 2275.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1280239,
+            "admin2_id": 1788850,
+            "timezone": "Asia/Shanghai",
+            "population": 2467965,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Qinghai",
+            "admin2": "Xining Shi"
+          },
+          "response_file": "raw/geocoding/xining.json",
+          "checked_at": "2026-10-29T12:38:08.945867+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "xining-era5-v0.1"
+    },
+    {
+      "id": "hohhot",
+      "city_id": "hohhot",
+      "name": "呼和浩特",
+      "region": "内蒙古自治区",
+      "category": "自治区首府",
+      "aliases": [
+        "Hohhot",
+        "hohhot",
+        "内蒙古自治区",
+        "呼和浩特市",
+        "呼市"
+      ],
+      "representative_point": {
+        "latitude": 40.81056,
+        "longitude": 111.65222,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/2036892/",
+          "geonames_id": 2036892,
+          "record": {
+            "id": 2036892,
+            "name": "Hohhot",
+            "latitude": 40.81056,
+            "longitude": 111.65222,
+            "elevation": 1051.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 2035607,
+            "admin2_id": 2036891,
+            "timezone": "Asia/Shanghai",
+            "population": 3446100,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Inner Mongolia",
+            "admin2": "Hohhot Shi"
+          },
+          "response_file": "raw/geocoding/hohhot.json",
+          "checked_at": "2026-10-29T12:38:10.623451+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "hohhot-era5-v0.1"
+    },
+    {
+      "id": "nanning",
+      "city_id": "nanning",
+      "name": "南宁",
+      "region": "广西壮族自治区",
+      "category": "自治区首府",
+      "aliases": [
+        "Nanning",
+        "nanning",
+        "南宁市",
+        "广西壮族自治区"
+      ],
+      "representative_point": {
+        "latitude": 22.81667,
+        "longitude": 108.31667,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1799869/",
+          "geonames_id": 1799869,
+          "record": {
+            "id": 1799869,
+            "name": "Nanning",
+            "latitude": 22.81667,
+            "longitude": 108.31667,
+            "elevation": 91.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1809867,
+            "admin2_id": 1799866,
+            "timezone": "Asia/Shanghai",
+            "population": 5977185,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Guangxi",
+            "admin2": "Nanning Shi"
+          },
+          "response_file": "raw/geocoding/nanning.json",
+          "checked_at": "2026-10-29T12:38:13.428053+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "nanning-era5-v0.1"
+    },
+    {
+      "id": "lhasa",
+      "city_id": "lhasa",
+      "name": "拉萨",
+      "region": "西藏自治区",
+      "category": "自治区首府",
+      "aliases": [
+        "Lhasa",
+        "lhasa",
+        "拉萨市",
+        "西藏自治区"
+      ],
+      "representative_point": {
+        "latitude": 29.65,
+        "longitude": 91.1,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1280737/",
+          "geonames_id": 1280737,
+          "record": {
+            "id": 1280737,
+            "name": "Lhasa",
+            "latitude": 29.65,
+            "longitude": 91.1,
+            "elevation": 3651.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1279685,
+            "admin2_id": 1280735,
+            "timezone": "Asia/Shanghai",
+            "population": 867900,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Tibet",
+            "admin2": "Lhasa Shi"
+          },
+          "response_file": "raw/geocoding/lhasa.json",
+          "checked_at": "2026-10-29T12:38:15.126680+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "lhasa-era5-v0.1"
+    },
+    {
+      "id": "yinchuan",
+      "city_id": "yinchuan",
+      "name": "银川",
+      "region": "宁夏回族自治区",
+      "category": "自治区首府",
+      "aliases": [
+        "Yinchuan",
+        "yinchuan",
+        "宁夏回族自治区",
+        "银川市"
+      ],
+      "representative_point": {
+        "latitude": 38.46806,
+        "longitude": 106.27306,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1786657/",
+          "geonames_id": 1786657,
+          "record": {
+            "id": 1786657,
+            "name": "Yinchuan",
+            "latitude": 38.46806,
+            "longitude": 106.27306,
+            "elevation": 1117.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1799355,
+            "admin2_id": 1786656,
+            "timezone": "Asia/Shanghai",
+            "population": 2859074,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Ningxia",
+            "admin2": "Yinchuan"
+          },
+          "response_file": "raw/geocoding/yinchuan.json",
+          "checked_at": "2026-10-29T12:38:17.333905+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "yinchuan-era5-v0.1"
+    },
+    {
+      "id": "urumqi",
+      "city_id": "urumqi",
+      "name": "乌鲁木齐",
+      "region": "新疆维吾尔自治区",
+      "category": "自治区首府",
+      "aliases": [
+        "Urumchi",
+        "Urumqi",
+        "urumqi",
+        "乌市",
+        "乌鲁木齐市",
+        "新疆维吾尔自治区"
+      ],
+      "representative_point": {
+        "latitude": 43.80096,
+        "longitude": 87.60046,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1529102/",
+          "geonames_id": 1529102,
+          "record": {
+            "id": 1529102,
+            "name": "Ürümqi",
+            "latitude": 43.80096,
+            "longitude": 87.60046,
+            "elevation": 862.0,
+            "feature_code": "PPLA",
+            "country_code": "CN",
+            "admin1_id": 1529047,
+            "admin2_id": 1529101,
+            "timezone": "Asia/Urumqi",
+            "population": 4054000,
+            "country_id": 1814991,
+            "country": "China",
+            "admin1": "Xinjiang",
+            "admin2": "Urumqi Shi"
+          },
+          "response_file": "raw/geocoding/urumqi.json",
+          "checked_at": "2026-10-29T12:38:19.019361+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "urumqi-era5-v0.1"
+    },
+    {
+      "id": "taipei",
+      "city_id": "taipei",
+      "name": "台北",
+      "region": "台湾",
+      "category": "港澳台代表城市",
+      "aliases": [
+        "Taipei",
+        "taipei",
+        "台北市",
+        "台湾",
+        "臺北"
+      ],
+      "representative_point": {
+        "latitude": 25.05306,
+        "longitude": 121.52639,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1668341/",
+          "geonames_id": 1668341,
+          "record": {
+            "id": 1668341,
+            "name": "Taipei",
+            "latitude": 25.05306,
+            "longitude": 121.52639,
+            "elevation": 5.0,
+            "feature_code": "PPLC",
+            "country_code": "TW",
+            "admin1_id": 7280291,
+            "admin2_id": 1668338,
+            "timezone": "Asia/Taipei",
+            "population": 7871900,
+            "country_id": 1668284,
+            "country": "Taiwan",
+            "admin1": "Taiwan",
+            "admin2": "Taipei City"
+          },
+          "response_file": "raw/geocoding/taipei.json",
+          "checked_at": "2026-10-29T12:38:21.092821+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "taipei-era5-v0.1"
+    },
+    {
+      "id": "hongkong",
+      "city_id": "hongkong",
+      "name": "香港",
+      "region": "香港特别行政区",
+      "category": "港澳台代表城市",
+      "aliases": [
+        "Hong Kong",
+        "Hongkong",
+        "hongkong",
+        "港",
+        "香港市",
+        "香港特别行政区"
+      ],
+      "representative_point": {
+        "latitude": 22.27832,
+        "longitude": 114.17469,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1819729/",
+          "geonames_id": 1819729,
+          "record": {
+            "id": 1819729,
+            "name": "Hong Kong",
+            "latitude": 22.27832,
+            "longitude": 114.17469,
+            "elevation": 60.0,
+            "feature_code": "PPLC",
+            "country_code": "HK",
+            "timezone": "Asia/Hong_Kong",
+            "population": 7396076
+          },
+          "response_file": "raw/geocoding/hongkong.json",
+          "checked_at": "2026-10-29T12:38:23.165643+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "hongkong-era5-v0.1"
+    },
+    {
+      "id": "macau",
+      "city_id": "macau",
+      "name": "澳门",
+      "region": "澳门特别行政区",
+      "category": "港澳台代表城市",
+      "aliases": [
+        "Macao",
+        "Macau",
+        "macau",
+        "澳",
+        "澳門",
+        "澳门",
+        "澳门市",
+        "澳门特别行政区"
+      ],
+      "representative_point": {
+        "latitude": 22.20056,
+        "longitude": 113.54611,
+        "description": "采用 GeoNames 城市居民地记录作为固定代表点；不是气象站，不代表全市或全省平均。",
+        "crs": "WGS84",
+        "source": {
+          "name": "GeoNames via Open-Meteo Geocoding",
+          "url": "https://www.geonames.org/1821274/",
+          "geonames_id": 1821274,
+          "record": {
+            "id": 1821274,
+            "name": "Macao",
+            "latitude": 22.20056,
+            "longitude": 113.54611,
+            "elevation": 28.0,
+            "feature_code": "PPLC",
+            "country_code": "MO",
+            "timezone": "Asia/Macau",
+            "population": 649335
+          },
+          "response_file": "raw/geocoding/macau.json",
+          "checked_at": "2026-10-29T12:38:24.858043+00:00",
+          "license": "CC BY 4.0"
+        }
+      },
+      "time_window": {
+        "timezone": "Asia/Shanghai",
+        "utc_offset_seconds": 28800,
+        "baseline": {
+          "start": 1961,
+          "end": 1990
+        },
+        "recent": {
+          "start": 1996,
+          "end": 2025
+        },
+        "annual_start": 1961,
+        "annual_end": 2025,
+        "rule": "交节北京时间日期起至下一交节日期前一日，按开始年份归档"
+      },
+      "report_id": "macau-era5-v0.1"
+    }
+  ]
+}
