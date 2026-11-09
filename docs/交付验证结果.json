@@ -1,0 +1,40 @@
+{
+  "tested_source_commit": "6ee54a8554badfb739632431c8779becb953c66a",
+  "browser_passed": true,
+  "real_city_coverage": 7,
+  "checks": [
+    "actual_start_cmd_returns_and_background_service_remains",
+    "occupied_default_port_uses_alternate",
+    "all_34_entries_show_real_availability_without_sample_fallback",
+    "all_api_requests_follow_actual_port",
+    "region_and_city_search",
+    "late_old_report_cannot_overwrite_new_city",
+    "late_old_poster_cannot_appear_after_city_switch",
+    "report_missing",
+    "report_parse_failed",
+    "report_schema_mismatch",
+    "invalid_json_and_interrupted_request_not_mislabeled_as_connection",
+    "insufficient_data_remains_unrated_and_separate_from_acquisition",
+    "insufficient_data_png_explicit_unrated_and_demo_watermark",
+    "tribute_storage_failure_never_claims_success",
+    "zero_departed_uses_guardian_card_with_explicit_demo_watermark",
+    "beijing_stopped_service_error_regression",
+    "actual_start_cmd_restart_retry_recovers",
+    "refresh_and_launcher_restart_preserve_actions",
+    "narrow_city_selector",
+    "actual_close_cmd_stops_only_owned_test_instance",
+    "cold_start_with_python_outbound_sockets_denied",
+    "all_completed_cities_offline_roster_chart_tribute_png",
+    "all_completed_cities_new_light_and_flower_writes_offline",
+    "offline_new_writes_persist_after_second_cold_start_and_retries"
+  ],
+  "browser_errors": [],
+  "external_requests": [],
+  "data_audit": {
+    "checked_at": "2026-11-09T05:44:42.672041+00:00",
+    "data_complete": 7,
+    "failures": [],
+    "passed_for_published": true,
+    "all_34_data_complete": false
+  }
+}
