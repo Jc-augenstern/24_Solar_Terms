@@ -133,6 +133,9 @@ async function checkCity(page,context,base,city,phase){
   return {id:city.id,name:city.name,phase,report_id:city.report.report_id,generated_at:city.report.generated_at,page:'passed',chart:'passed',memorial:'passed',offline_new_writes:phase==='offline'?'passed':'not_applicable',poster:'passed',poster_file:poster};
 }
 
+// Generate the explicit synthetic fixture in a fresh checkout; never alter real reports.
+execFileSync(python,['-X','utf8',path.join(root,'qa','make_edge_fixture.py')],{cwd:root,env,encoding:'utf8',windowsHide:true,timeout:30000});
+
 let browser,blocker,offline,onlineContext;
 try{
   // Force the delivered launcher onto a safe alternate port, unless another
